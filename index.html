@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diaporama de photos</title>
+    <link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+    <h1>Diaporama de photos</h1>
+
+    <section id="diaporama">
+        <img src="./images/ara.jpg" alt="Ara" class="visible">
+        <img src="./images/dolphin.jpg" alt="Dauphin">
+        <img src="./images/elephant.jpg" alt="Eléphant">
+        <img src="./images/tiger.jpg" alt="Tigre" class="back">
+
+    </section>
+
+    <div id="diaporama-controls">
+        <button class="bt-previous"><i class="fa-solid fa-backward-step"></i> Précédente</button>
+        <button class="bt-pause"><i class="fa-solid fa-pause"></i> Pause</button>
+        <button class="bt-play"><i class="fa-solid fa-play"></i> Lecture</button>
+        <button class="bt-random"><i class="fa-solid fa-shuffle"></i> Aléatoire</button>
+        <button class="bt-next">Suivante <i class="fa-solid fa-forward-step"></i></button>
+    </div>
+
+    <script src="https://kit.fontawesome.com/ffe3aa3664.js" crossorigin="anonymous"></script>
+    
+    <script src="math.js"></script> 
+    <script src="main.js"></script>    
+</body>
+</html>
